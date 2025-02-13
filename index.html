@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Embed Canva document</title>
   </head>
   <body>
     <div id="app">
+      <header>
+        <h1>Canva Embed</h1>
+      </header>
       <iframe
         loading="lazy"
         style="
@@ -26,6 +33,7 @@
         allow="fullscreen"
       >
       </iframe>
+      <a href="/reader.html">See also the PDF reader</a>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
